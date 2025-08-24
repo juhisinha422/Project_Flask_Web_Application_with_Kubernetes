@@ -25,7 +25,7 @@ This project demonstrates how to containerize a simple Flask application, push i
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/himanshukr8090/k8s-flask-eks.git
+git clone https://github.com/juhisinha422/Project_Flask_Web_Application_with_Kubernetes.git
 cd k8s-flask-eks
 ```
 
@@ -40,9 +40,9 @@ curl http://localhost:5000/home
 ### 3. Push Image to DockerHub
 
 ```bash
-docker tag my_flask_app:v1 himanshu8090/k8s-flask-app-project:v1
+docker tag my_flask_app:v1 juhisinha/k8s-flask-app-project:v1
 docker login
-docker push himanshu8090/k8s-flask-app-project:v1
+docker push juhisinha/k8s-flask-app-project:v1
 ```
 
 ### 4. Create EKS Cluster (via eksctl)
@@ -54,7 +54,7 @@ eksctl create cluster --name MyCluster --version 1.29 --region ap-south-1 --node
 ### 5. Deploy on Kubernetes
 
 ```bash
-kubectl create deployment myflaskappdeploy --image=himanshu8090/k8s-flask-app-project:v1
+kubectl create deployment myflaskappdeploy --image=juhisinha/k8s-flask-app-project:v1
 kubectl expose deployment myflaskappdeploy --type=NodePort --port=5000 --target-port=5000
 ```
 
@@ -96,11 +96,11 @@ kubectl logs <pod-name>
 
 ## 🔗 Links
 
-- 📦 DockerHub: [himanshu8090/k8s-flask-app-project](https://hub.docker.com/r/himanshu8090/k8s-flask-app-project)
+- 📦 DockerHub: [juhisinha/k8s-flask-app-project](https://hub.docker.com/r/juhisinha/k8s-flask-app-project)
 - ☁️ AWS: [Amazon EKS](https://aws.amazon.com/eks/)
 
 ## 🙌 Author
 
-**Himanshu Kumar Singh**  
-B.Tech CSE | DevOps & Cloud Enthusiast  
-[LinkedIn Profile](https://www.linkedin.com/in/himanshukrsingh0)
+**Juhi Sinha**  
+DevOps Engineer | DevOps & Cloud Enthusiast  
+
