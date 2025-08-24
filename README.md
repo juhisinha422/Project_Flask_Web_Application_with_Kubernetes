@@ -75,6 +75,8 @@ Use the EXTERNAL-IP of your node and the NODE-PORT to access:
 Welcome to my Flask app..., 
 My hostname is : myflaskappdeploy-69cbb486b9-4qqmc, 
 My ip : 192.168.0.x
+
+<img width="431" height="297" alt="Image" src="https://github.com/user-attachments/assets/6ea379c4-7cb0-44b2-9d11-00e12e0f2ee8" />
 ```
 
 ## 🔍 Useful Commands
