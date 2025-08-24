@@ -49,6 +49,7 @@ docker push juhisinha/k8s-flask-app-project:v1
 
 ```bash
 eksctl create cluster --name MyCluster --version 1.29 --region ap-south-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2 --managed
+NOTE: We can create cluster using KIND also.
 ```
 
 ### 5. Deploy on Kubernetes
