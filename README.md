@@ -76,7 +76,7 @@ Welcome to my Flask app...,
 My hostname is : myflaskappdeploy-69cbb486b9-4qqmc, 
 My ip : 192.168.0.x
 
-![Flask App Screenshot](https://github.com/juhisinha422/Project_Flask_Web_Application_with_Kubernetes/blob/main/images/image.png?raw=true)
+![Flask App Screenshot](https://raw.githubusercontent.com/juhisinha422/Project_Flask_Web_Application_with_Kubernetes/main/images/image.png)
 ```
 
 ## 🔍 Useful Commands
